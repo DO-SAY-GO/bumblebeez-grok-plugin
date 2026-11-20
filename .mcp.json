@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "bumblebeez": {
+      "type": "http",
+      "url": "https://agents.browserbox.io/oauth/mcp"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "bumblebeez",
+  "version": "0.1.0",
+  "description": "Connect Grok Build to a Bumblebeez hosted browser session for authorized browser workflows, with a viewer link for human handoff.",
+  "author": { "name": "DOSAYGO", "url": "https://dosaygo.com" },
+  "homepage": "https://bumblebeez.ai",
+  "license": "MIT"
+}
