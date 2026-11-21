@@ -13,7 +13,7 @@ Grip provides observations and actions inside the remote browser.
 - Use `browser_inspect` with `view: "controls"` to see current control refs or
   `view: "page"` to read visible content. Both take the current `session_id`.
   Use a fresh observation after navigation or an action changes the controls.
-- Use `browser_grip` for actions. Its `args` array takes one Grip action per
+- Use `browser_interact` for actions. Its `args` array takes one Grip action per
   call, such as `["go", "https://example.com"]`, `["type", "5", "A-104"]`,
   or `["do", "6"]`. Take refs from the current controls and use the authorized
   site and inputs for the task.

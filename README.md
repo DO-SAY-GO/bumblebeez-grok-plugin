@@ -22,6 +22,8 @@ The plugin stores no credentials. Grok Build runs the OAuth browser flow on firs
 1. Install the plugin and open `/mcps` in Grok Build, select `bumblebeez`, press `i` to sign in.
 2. Ask for a task on a site you are authorized to use. End the session when you finish.
 
+Use `browser_inspect` to read the page and `browser_interact` for one explicit browser action. `browser_grip` remains available as a compatibility alias.
+
 Hosted browser time is metered against your Bumblebeez account balance.
 
 [Privacy](https://bumblebeez.ai/privacy) · [Terms](https://bumblebeez.ai/terms) · [Support](https://bumblebeez.ai/support) · sales@dosaygo.com
