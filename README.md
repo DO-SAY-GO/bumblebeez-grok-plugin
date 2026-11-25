@@ -2,7 +2,7 @@
 
 Bumblebeez gives Grok Build a hosted browser session through an MCP server. Use it to open pages you are authorized to access, read visible information, act on page controls, and hand a step to a person through a session viewer link.
 
-[Bumblebeez on Glama](https://glama.ai/mcp/connectors/ai.bumblebeez/browser)
+[![Bumblebeez MCP connector](https://glama.ai/mcp/connectors/ai.bumblebeez/browser/badges/score.svg)](https://glama.ai/mcp/connectors/ai.bumblebeez/browser)
 
 ## What this plugin contains
 
@@ -17,7 +17,7 @@ Bumblebeez gives Grok Build a hosted browser session through an MCP server. Use 
 | `https://agents.browserbox.io/oauth/mcp` | MCP server (tools) |
 | `https://auth.agents.browserbox.io` | OAuth 2.1 authorization server (PKCE S256, scope `browser:use`) |
 
-The plugin stores no credentials. Grok Build runs the OAuth browser flow on first use and keeps the token in `~/.grok/mcp_credentials.json`. You need a Bumblebeez account enabled by DOSAYGO; no token, key or secret is shipped in this repository.
+The plugin stores no credentials. Grok Build runs the OAuth browser flow on first use and keeps the token in `~/.grok/mcp_credentials.json`. Sign in with an email code during the OAuth flow; a new account gets 25 cents of starter credit once per email address at first sign-in (valid for 30 days, no card needed). No token, key or secret is shipped in this repository.
 
 ## Use
 
@@ -26,7 +26,7 @@ The plugin stores no credentials. Grok Build runs the OAuth browser flow on firs
 
 Use `browser_inspect` to read the page and `browser_interact` for one explicit browser action. `browser_grip` remains available as a compatibility alias.
 
-Hosted browser time is metered against your Bumblebeez account balance.
+Hosted browser time is billed per minute at the tier's hourly rate against one prepaid USD balance: Batch $0.07/hr, Instant $0.41/hr, Live $0.41/hr, Anywhere $1.29/hr.
 
 [Privacy](https://bumblebeez.ai/privacy) · [Terms](https://bumblebeez.ai/terms) · [Support](https://bumblebeez.ai/support) · sales@dosaygo.com
 
