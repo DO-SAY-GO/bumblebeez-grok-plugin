@@ -2,6 +2,8 @@
 
 Bumblebeez gives Grok Build a hosted browser session through an MCP server. Use it to open pages you are authorized to access, read visible information, act on page controls, and hand a step to a person through a session viewer link.
 
+[Bumblebeez on Glama](https://glama.ai/mcp/connectors/ai.bumblebeez/browser)
+
 ## What this plugin contains
 
 - `.mcp.json`: one remote MCP server, `https://agents.browserbox.io/oauth/mcp` (Streamable HTTP, OAuth).
